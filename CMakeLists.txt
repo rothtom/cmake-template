@@ -11,6 +11,6 @@ set(LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # import lical lobraries here
-# find_package({name} REQUIRED? COMPONETS {components})
+# find_package({name} REQUIRED? COMPONENTS {components})
 
 add_subdirectory(src)
